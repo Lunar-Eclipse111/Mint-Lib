@@ -22,6 +22,12 @@ Labels
 local label = TAB:Label("Silent Aim")
 ```
 
+Buttons
+```lua
+local btn = stuff:Button(Text,function()
+print("Clicked")
+end)
+```
 Toggles
 ```lua
 local toggle = TAB:Toggle(Text,function(v)
